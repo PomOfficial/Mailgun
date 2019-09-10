@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/mailgun",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mailgun API connector for the Pomegranate framework",
   "main": "index.js",
   "files": [
