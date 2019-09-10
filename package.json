@@ -1,0 +1,56 @@
+{
+  "name": "@pomofficial/mailgun",
+  "version": "0.0.0",
+  "description": "Mailgun API connector for the Pomegranate framework",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Plugins/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ActionForest",
+    "Tasks"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/jest": "^24.0.13",
+    "@types/lodash": "^4.14.134",
+    "@types/mailgun-js": "^0.22.2",
+    "@types/node": "^12.0.7",
+    "@types/nodemailer": "^6.2.0",
+    "@types/pug": "^2.0.4",
+    "@types/uuid": "^3.4.4",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.7",
+    "bluebird": "^3.5.5",
+    "lodash": "^4.17.11",
+    "mailgun-js": "^0.22.0",
+    "nodemailer": "^6.2.1",
+    "pug": "^2.0.4",
+    "uuid": "^3.3.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/Mailgun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PomOfficial/Mailgun/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/Mailgun#readme"
+}
