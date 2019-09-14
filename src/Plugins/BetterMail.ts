@@ -112,8 +112,5 @@ export const BetterMailPlugin = CreatePlugin('anything')
       }, mc)
 
       return mc
-    },
-    start: (BetterMail, PluginLogger) => {
-      PluginLogger.warn(BetterMail)
     }
   })
